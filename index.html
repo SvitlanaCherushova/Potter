@@ -1,66 +1,71 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=H, initial-scale=1.0" />
-    <title>Студия</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="" lang="en">Web-Studio</a>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+          
+</head>
+<body>
+  <header class="header">
+      <nav class="navigation">
+        <a class="logo link" href="" lang="en"><span class="accent">Web</span>Studio</a>
 
-        <ul>
+        <ul class="list">
           <li>
-            <a href="">Студия</a>
+            <a class="link" href="./portfolio.html">Студия</a>
           </li>
           <li>
-            <a href="">Портфолио</a>
+            <a class="link" href="">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a class="link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="info@devstudio.com">info@devstudio.comm</a></li>
-        <li><a href="mailto:tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li><a class="link contacts" href="info@devstudio.com">info@devstudio.comm</a></li>
+        <li><a class="link contacts" href="mailto:tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">заказать-услугу</button>
+      <section class="section">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero-button">Заказать-услугу</button>
       </section>
 
-      <section>
-        <h2>Наши особенности</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Наши особенности</h2>
+        <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="section-title">Внимание к деталям</h3>
+            <p class="section-text"> 
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="section-title">Пунктуальность</h3>
+            <p class="section-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="section-title">Планирование</h3>
+            <p class="section-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="section-title">Современные технологии</h3>
+            <p class="section-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -68,9 +73,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="section-about"> 
+        <h2 class="about-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/box-1.jpg"
@@ -98,9 +103,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="about"> 
+        <h2 class="about-title">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/about/team-card-1.png"
@@ -108,8 +113,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="about-team">Игорь Демьяненко</h3>
+            <p lang="en" class="about-text">Product Designer</p>
           </li>
           <li>
             <img
@@ -118,8 +123,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="about-team">Ольга Репина</h3>
+            <p lang="en" class="about-text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -128,8 +133,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="about-team">Николай Тарасов</h3>
+            <p lang="en" class="about-text">Marketing</p>
           </li>
           <li>
             <img
@@ -138,18 +143,18 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="about-team">Михаил Ермаков</h3>
+            <p lang="en" class="about-text">UI Designer</p>
           </li>
         </ul>
       </section>
 
       <footer>
-        <a href="" lang="en">Web-Studio</a>
-        <address>
-          <ul>
+        <a class="logo link" href="" lang="en"><span class="accent">Web</span>Studio</a>
+        <address class="address">
+          <ul class="list">
             <li>
-              <a
+              <a class="address-maps link"
                 href="https://goo.gl/maps/9fwMgfQwJwX4skKS7"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -157,14 +162,17 @@
               >
             </li>
             <li>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+              <a class="address-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="address-mail link" href="mailto:info@example.com">info@example.com</a>
             </li>
           </ul>
         </address>
       </footer>
     </main>
-  </body>
+  
+</body>
 </html>
+    
+  
